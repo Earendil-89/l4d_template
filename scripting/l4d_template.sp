@@ -4,7 +4,7 @@
  *  Author: AuthorName                                                              *
  *  Description: Basic plugin features for L4D & L4D2                               *
  *  Version: 1.0.0                                                                  *
- *  Link:                                                                           *
+ *  Link: https://github.com/Earendil-89/l4d_template                               *
  * -------------------------------------------------------------------------------- *
  *                                                                                  *
  *  CopyRight (C) 2024 Eduardo "Eärendil" Chueca                                    *
