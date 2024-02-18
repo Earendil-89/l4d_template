@@ -252,14 +252,14 @@ bool IsGamemodeAllowed()
 #if !defined _l4dh_included
 void OnGamemode(const char[] output, int caller, int activator, float delay)
 {
-	if( strcmp(output, "OnCoop") == 0 )
-		g_gmCurrent = GameMode_Coop;
-	else if( strcmp(output, "OnSurvival") == 0 )
-		g_gmCurrent = GameMode_Survival;
-	else if( strcmp(output, "OnVersus") == 0 )
-		g_gmCurrent = GameMode_Versus;
-	else if( strcmp(output, "OnScavenge") == 0 )
-		g_gmCurrent = GameMode_Scavenge;
+    if( strcmp(output, "OnCoop") == 0 )
+        g_gmCurrent = GameMode_Coop;
+    else if( strcmp(output, "OnSurvival") == 0 )
+        g_gmCurrent = GameMode_Survival;
+    else if( strcmp(output, "OnVersus") == 0 )
+        g_gmCurrent = GameMode_Versus;
+    else if( strcmp(output, "OnScavenge") == 0 )
+        g_gmCurrent = GameMode_Scavenge;
 }
 #endif
 
