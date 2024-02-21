@@ -40,7 +40,6 @@
 // Constants section
 #define PLUGIN_VERSION      "1.0.0"         // Used on plugin and ConVar registration
 #define CVAR_FLAGS          FCVAR_NOTIFY    // Register common ConVar flags for the plugin
-#define TRUE_ROUND_START    1               // Allow plugin to get the true round start
 
 // Variables section
 bool g_bPluginOn;               // This variable stores the current state of plugin: true -> ON, false -> OFF
